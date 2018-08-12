@@ -1,3 +1,4 @@
+import datetime
 s='TiliWili'
 print(type(s))
 print(s)
@@ -84,3 +85,13 @@ print(email_name)
 email_name_idx = email.find('@')
 email_name = email[:email_name_idx]
 print(email_name)
+
+
+#-------------------
+
+s = "Привет"
+s.encode()
+print(s)
+
+s.encode.decode()
+print(s)
